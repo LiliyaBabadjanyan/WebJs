@@ -26,8 +26,16 @@
         <div class="mb-2 border-opacity-50 rounded-3">
           <label for="result" class="w-100">Сумма <input class="form-control" id="result" disabled></label>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <button type="button" class="btn btn-dark" id="button">Посчитать итоговую стоимость</button>
+        <div id="radios">
+          <div class="d-grid gap-3 d-flex mb-2 justify-content-around" id="radio">
+            <label><input type="radio" name="radio" value="r">ваша кнопка</label>
+            <label><input type="radio" name="radio" value="r1">ваша кнопка</label>
+            <label><input type="radio" name="radio" value="r2">ваша кнопка</label>
+          </div>
+        </div>
+        <div class="justify-content-start mx-4" id="checkD">
+          <label for="checkbox" >ваш чекбокс</label>
+          <label class="m-1"><input class="w-100" type="checkbox" id="checkbox" required></label>
         </div>
       </form>
     </div>
